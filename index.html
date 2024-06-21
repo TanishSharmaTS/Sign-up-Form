@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Welcome</title>
+</head>
+<body>
+    <main>
+        <section class="image-container">
+            <div class="logo-container">
+                <img src="image/odin-lined.png" alt="odin-lined" id="odin-lined">
+                <span class="logo-title">ODIN</span>
+            </div>
+        </section>
+        <section class="form-container">
+            <div class="info">
+                <p>
+                    <strong>This is not a real online service! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, commodi!</strong>
+                </p>
+                <p>
+                    <strong>Sign up <em>now</em> to get started.</strong>
+                </p>
+                <p class="text">
+                    <strong>You <em>know</em> what you want</strong>
+                </p>
+            </div>
+            <div class="form-info">
+                <form action="#" method="post">
+                    <div class="form">
+                        <h3 id="form-title">Let's do this!</h3>
+
+                        <div class="form-inputs">
+    
+                            <div class="inputs">
+                                <label for="first_name">First Name</label>
+                                <input type="text" id="first_name" name="first_name" maxlength="15" aria-label="required" required>    
+                            </div>
+    
+                            <div class="inputs">
+                                <label for="last_name">Last Name</label>
+                                <input type="text" id="last_name" name="last_name" maxlength="15" aria-label="required" required>
+                            </div>
+                           
+                            <div class="inputs">
+                                <label for="email-address">Email</label>
+                                <input type="email"id="email-address" name="email-address" aria-label="required" placeholder="odin@web.com" required>
+                            </div>
+    
+                            <div class="inputs">
+                                <label for="phone-number">Phone Number</label>
+                                <input type="tel" id="phone-number" name="phone-number" pattern="[0-9]{9,}" title="Enter a valid number having 9 digits" aria-label="required" required>
+                            </div>
+                            
+                            <div class="inputs">
+                                <label for="password1">Password</label>
+                                <input type="password" id="password1" name="password1" aria-label="required" required>
+                            </div>
+                            
+                            <div class="inputs">
+                                <label for="password2">Confirm Password</label>
+                                <input type="password" id="password2" name="password2" aria-label="required" required>
+                            </div>
+    
+                        </div>
+                    </div>
+                    
+
+                    <button type="submit" id="submit-button"><strong class="submit-button">Create Account</strong></button>
+
+                </form>
+
+            </div>
+            <div class="sign-up-link">
+                Already Have an Account? <a href="#"><strong>Log in</strong></a>
+            </div>
+        </section>
+    </main>
+
+    
+</body>
+</html>
